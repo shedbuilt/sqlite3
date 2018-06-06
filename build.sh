@@ -9,5 +9,5 @@
             -DSQLITE_ENABLE_DBSTAT_VTAB=1 \
             -DSQLITE_SECURE_DELETE=1 \
             -DSQLITE_ENABLE_FTS3_TOKENIZER=1" &&
-make -j $SHED_NUMJOBS &&
-make DESTDIR="$SHED_FAKEROOT" install
+make -j $SHED_NUM_JOBS &&
+make DESTDIR="$SHED_FAKE_ROOT" install
